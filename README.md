@@ -30,6 +30,9 @@ To use the script, execute it with the following syntax:
 ```
 This will scan the ports from `80` to `85` on IP address `192.168.1.1`
 
+![Alt text](images/example.png)
+
+
 
 ## Note
 - Port scanning without proper permissions can be illegal guys, be responsible 👀
