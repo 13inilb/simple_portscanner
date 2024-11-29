@@ -9,7 +9,7 @@ if [ $# -ne 3 ]; then
 	exit 1
 fi
 
-echo "Scanning.."
+echo "Scanning..."
 for ((port=$start; port<=$stop; port++ ))
 do
 	(echo > /dev/tcp/$target_ip/$port) &>/dev/null && echo "Port $port is open" || echo "Port $port is closed"
